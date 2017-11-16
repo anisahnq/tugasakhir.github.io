@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>UTS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    .bar{
+      border: 1px solid black;
+    }
+    </style>
+    <script>
+    var x=0;
+    		function clickcart(){
+    		x++;
+    		document.getElementById("badges").innerHTML=x;
+    	}
+    	function klik(){
+    	alert("Pesan telah terkirim ke email Anda");
+    }
+    </script>
+  </head>
+  <body>
+  <div class="container" style="border:2px solid black">
+  <header>
+      <nav class ="nav navbar-default">
+        <div class ="container-fluid">
+          <div class="bacaanav" style ="float:right;margin-top: 20px;" >
+            <ul>
+              <li style="display:inline;"><a href="#">Login<span> | </span></a></li>
+              <li style="display:inline;"><a href="#">My Account<span> | </span></a></li>
+              <li style="display:inline;"><a href="#">My Cart<span class="badge" id="badges"></span></a></li>
+            </ul>
+            <input type="text" class="form-control" placeholder="Keyword Search">
+            <Button  type="submit" class ="btn btn-primary btn-md " value ="search" style="margin:10px;float:right;">Search</Button>
+          </div>
+          <div class="logo">
+            <img src ="logo.jpg" alt="pemandangan" class="img-responsive" style ="width: 50px; height: 50px; margin-top: 5px;margin-bottom: 5px;" >
+          </div>
+        </div>
+
+      </nav>
+    </header>
+    <section class="row">
+    <!-- layout kiri -->
+      <div class="col-md-4 col-xs-4" style="border:1px solid black;height:652px">
+        <div class="row">
+        	<div class="col-md-6 col-xs-12" style="border:1px solid black">
+        		<a href="#">BATH</a><br>
+        		<a href="#">BED</a><br>
+        		<a href="#">KITCHEN</a><br>
+        		<a href="#">LIVING</a><br>
+        		<a href="#">OFFICE</a><br>
+        		<a href="#">OUTDOORS</a><br>
+        		<a href="#">CLEARANCE</a><br>
+        	</div>
+        	<div class="col-md-6 col-xs-12" style="border:1px solid black;height:142px">
+        		<a href="#">Towels</a><br>
+        		<a href="#">Rugs/Mals</a><br>
+        		<a href="#">Mirrors</a><br>
+        		<a href="#">Accessories</a><br>
+        		<a href="#">Robes/Slippers</a><br>
+        		<a href="#">Personal Care</a><br>
+        		<p> </p>
+        	</div>
+        </div>
+        <div class="col-md-12 col-xs-12">
+        	<img src="gambar.jpg">
+        </div>
+        <div class="col-md-12 col-xs-12" style="border:1px solid black;border-radius: 5px;height:150px">
+        	<h3 style="text-align:center;">Get a Special Offer by E-mail</h3>
+        	<input type="text" class="form-control" placeholder="Enter your E-mail Address">
+        	<a href="#" style="float:left;margin-top: 15px">privacy policy</a>
+        	<Button  type="submit" class ="btn btn-primary btn-md " value ="login" style="margin-top:10px;float:right" onClick="klik()">SUBMIT</Button>
+        </div>
+      </div>
+      <!-- akhir layout kiri -->
+      <!-- layout kanan -->
+      <div class="col-md-8 col-xs-8">
+      	<div class="row">
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      </div>
+      <div class="row">
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      </div>
+      <div class="row">
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;border-radius: 5px;">
+      			<img src="produk.jpg">
+      			<a href="#" style="margin-left: 70px;" onClick="clickcart()">Produk Name</a>
+      			<p style="text-align:center">$0.00</p>
+      		</div>
+      </div>
+      <div class="row">
+      		<div class="col-md-8 col-xs-12" style="border:1px solid black;height: 148px">
+      			<h3>Shipping Information</h3>
+      			<p style="text-align:center">Shipping & Handling</p>
+      			<p style="text-align:center">refund & Returns</p>
+      		</div>
+      		<div class="col-md-4 col-xs-12" style="border:1px solid black;">
+      			<h3>Help</h3>
+      			<p style="text-align:center">Contact Us</p>
+      			<p style="text-align:center">FAQ's</p>
+      			<p style="text-align:center">Find a Store</p>
+      		</div>
+      </div>
+    </div>
+    <!-- akhir layout kanan -->
+  </section>
+  <footer style="margin:10px;">
+    	<p style="text-align:center">Gift Cards | Company Policies | Term and Condition | Disclaimer</p>
+    	<p style="text-align:center">Copyright</p>
+  </footer>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
